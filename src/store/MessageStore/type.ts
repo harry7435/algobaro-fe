@@ -1,7 +1,7 @@
 import * as Stomp from '@stomp/stompjs';
 
 import { ChatValueUnion, RoomValueUnion } from '@/types/chat';
-import { RoomType } from '@/types/room';
+import { RoomType } from '@/types/me';
 
 export interface Message {
   memberId: number;

@@ -2,8 +2,8 @@ import { MouseEvent, useEffect, useRef } from 'react';
 import { v4 } from 'uuid';
 
 import { Message } from '@/components';
+import useMeStore from '@/store/Me';
 import useMessageStore from '@/store/MessageStore';
-import useMeStore from '@/store/MeStore';
 import useRoomStore from '@/store/Room';
 
 import { MenuText } from '../Menu/MenuText';
