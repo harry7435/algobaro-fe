@@ -1,4 +1,0 @@
-{
-  "extends": ["stylelint-config-recess-order"],
-  "customSyntax": "postcss-styled-syntax"
-}
